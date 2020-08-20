@@ -1,0 +1,113 @@
+=========================
+Onyx 1.0.0 --> Onyx 1.1.0
+=========================
+
+Added:
+- Ars Nouveau
+- MoreCrashInfo
+- Productive Bees
+- Tool Kit
+
+Updated:
+	Astral Sorcery (AstralSorcery-1.15.2-1.12.5.jar --> AstralSorcery-1.15.2-1.12.6.jar):
+		AstralSorcery-1.15.2-1.12.6.jar:
+			Built with:
+			* ObserverLib: 1.15.2-1.2.0
+			* Curios: 1.15.2-2.0.2.4
+			Changes:
+			* The perk tree is now entirely json-datadriven. Check the /data/perks/ directory for the perk tree configuration/perks.
+			Fixes:
+			* Fixes a inconsistency in the tome regarding dynamism gems, asking for glowstone instead of now illumination powder
+			* Fixes all client players being pulled into the camera flight on attunement altars
+			* Fixes common and client configuration files not generating
+			* Fixes crystal merging occasionally yielding incorrect merge results
+			* Fixes issues regarding perk-modifiers on held/worn items not losing their effect under certain circumstances
+			Note:
+			This is an alpha build. Some things are missing and/or maybe broken. Please report found issues on github:
+			[https://github.com/HellFirePvP/AstralSorcery/issues](https://github.com/HellFirePvP/AstralSorcery/issues)
+
+	Bad Wither No Cookie - Reloaded (bwncr-1.15.1-3.6.13.jar --> bwncr-1.15.2-3.6.13.jar):
+		bwncr-1.15.2-3.6.13.jar:
+			[]()
+			If you want a server setup for the Any mod pack with zero effort, get a [server with BisectHosting]() and receive 25% off your first month as a new customer using the code kreezxil
+			official port to 1.15.2
+
+	Collective (Archived file --> collective-1.15.2-1.38.jar):
+		collective-1.15.2-1.38.jar:
+			Synced Collective version for all Minecraft versions.
+			Improved mod compatibility with by catching a rare exception on world load.
+			=========
+			The complete changelog with previous versions can be found at [https://minecraft.natamus.com/collective/changelog/]().
+
+	Immersive Engineering (ImmersiveEngineering-1.15.2-3.1-111 --> ImmersiveEngineering-1.15.2-3.2.0-114):
+		ImmersiveEngineering-1.15.2-3.2.0-114:
+			* Fixed mirrored machines rendering incorrectly (Malte)
+			* Fixed bucket wheels in mirrored excavators rendering incorrectly (Malte)
+			* Fixed crash when holding a drill with a damaged head (Malte)
+			* Also includes the changes from 1.14.4-3.2.0-113
+
+	Jellyfishing (Jellyfishing-1.2.2.jar --> Jellyfishing-1.2.4.jar):
+		Jellyfishing-1.2.4.jar:
+			Internal changes, math should now sync up with servers
+
+		Jellyfishing-1.2.3.jar:
+			Fixes server crash
+
+	KubeJS (kubejs-2.7.1.14.jar --> kubejs-2.7.1.15.jar):
+		kubejs-2.7.1.15.jar:
+			* Added setter for player.spawnLocation - LatvianModder
+			* Added player.spawnLocation - LatvianModder
+
+	McJtyLib (mcjtylib-1.15-4.1.3-beta.jar --> mcjtylib-1.15-4.1.4.jar):
+		mcjtylib-1.15-4.1.4.jar:
+			* Tag selector windows were ignoring the type. As a consequence they only showed block tags and not items tags
+
+	More Overlays Updated (moreoverlays-1.17.3-mc1.15.2.jar --> moreoverlays-1.17.5-mc1.15.2.jar):
+		moreoverlays-1.17.5-mc1.15.2.jar:
+			Fixed broken search that was in v1.17.4
+
+		moreoverlays-1.17.4-mc1.15.2.jar:
+			* Fixed problem with being able to see the light overlay trough blocks in some modpacks.
+			* Fixed misalignment of the chunk overlay when player has negative coordinates.
+			* Added config option to disable custom item search.
+			* Improved custom item search,
+			* Added Dutch translation.
+			* Added image in config screen.
+			*
+			*
+
+	Platforms (platforms-1.15-1.6.0.jar --> platforms-1.15-1.6.1.jar):
+		platforms-1.15-1.6.1.jar:
+			* Fixed potential tick crash on load
+			* Fixed GUIs pausing the game
+			* Fixed the Platform Select GUI not closing on right-click
+
+	RFTools Power (rftoolspower-1.15-2.2.0-beta.jar --> rftoolspower-1.15-2.2.1.jar):
+		rftoolspower-1.15-2.2.1.jar:
+			* Fully infusing a Blazing Generator will now give a 10% power production bonus
+			* Updated the Endergenic and Blazing Generator manuals
+
+	RFTools Utility (rftoolsutility-1.15-2.1.5-beta.jar --> rftoolsutility-1.15-2.1.6.jar):
+		rftoolsutility-1.15-2.1.6.jar:
+			* The Spawner is back!
+
+	ShetiPhianCore (shetiphiancore-1.15-3.7.3.jar --> shetiphiancore-1.15-3.7.4.jar):
+		shetiphiancore-1.15-3.7.4.jar:
+			* UseContext.getBlockPlacementStateFor(ItemStack), now uses world instance rather then the player instance as the player loads after and may be null
+			* Fixed Function.getEntityInFront becoming increasingly inaccurate with distance
+
+	The One Probe (theoneprobe-1.15-2.0.4.jar --> theoneprobe-1.15-2.0.5.jar):
+		theoneprobe-1.15-2.0.5.jar:
+			* Fixed a bug where some configs were not properly being read
+			* Fixed a problem on servers where looking at a player would also rotate the head of the player
+
+	Transport (Transport-1.15.2-2.3.1.jar --> Transport-1.15.2-2.4.0.jar):
+		Transport-1.15.2-2.4.0.jar:
+			Added: Timed Holding Rail: Has 4 Delays, 5 ticks, 50 ticks, 500 ticks, 5000 ticks
+
+Removed:
+- Chicken Chunks 1.8.+
+- Eyes in the Darkness
+- The Midnight
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
