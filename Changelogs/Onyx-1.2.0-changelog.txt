@@ -1,0 +1,157 @@
+=========================
+Onyx 1.1.0 --> Onyx 1.2.0
+=========================
+
+Added:
+- Crash Utilities
+- Extreme sound muffler (Forge)
+- Global XP
+- Polymorph (Forge)
+- Scannable
+- SwingThroughGrass
+- The Midnight
+
+Updated:
+	Applied Energistics 2 (appliedenergistics2-7.0.0.jar --> appliedenergistics2-7.0.1.jar):
+		appliedenergistics2-7.0.1.jar:
+			Fix issue #4622 (encoding patterns with no outputs).
+
+	Ars Nouveau (Ars Nouveau 1.15.2 - 0.7.jar --> Ars Nouveau 1.15.2 - 0.8.jar):
+		Ars Nouveau 1.15.2 - 0.8.jar:
+			Fixes crash related to the Summon Vex spell
+			Turns the Arcane Ore into a normal block, should reduce lag during world generation.
+
+	Building Gadgets (buildinggadgets-3.3.5.jar --> buildinggadgets-3.4.0.jar):
+		buildinggadgets-3.4.0.jar:
+			[3.4.0 - 1.15.2] - 2020-08-22
+			Added
+			* Improved the Destruction Gadgets Gui to be more clear when an area is out of bounds.
+			* Added 'out of' marker in the Contruction paste container item. You can now see the max size of the containers :D
+			* Added zh_cn translations thanks to [@EnterFor](https://github.com/EnterFor) [#475](https://github.com/Direwolf20-MC/BuildingGadgets/pull/457)
+			* Added a required items section to the template manager Gui which shows how many of which item you need for the template to be built.
+			Changed
+			* Removed undo from Exchanger as it should have never had it in the first instance
+			Fixed
+			* Fixed silk touch enchange with the Exchanger. [#487](https://github.com/Direwolf20-MC/BuildingGadgets/issues/487)
+			* Fixed [#511](https://github.com/Direwolf20-MC/BuildingGadgets/issues/511) exchanger would not exchange mutated states of the same block.
+			* Fixed [#511](https://github.com/Direwolf20-MC/BuildingGadgets/issues/511) exchanger would incorrectly validate visible sides
+			* Fixed Gadgets not using energy... [#512](https://github.com/Direwolf20-MC/BuildingGadgets/issues/512)
+			* Fixed crash caused by passing null to some Tiles onLoad methods.
+			* Fixed Exchanger being able to exchange over an effect block...
+			* Fixed Copy Paste Gadget no respecting blacklist [#450](https://github.com/Direwolf20-MC/BuildingGadgets/issues/450) (backport)
+			* Fixed Inventory weirdness [#450](https://github.com/Direwolf20-MC/BuildingGadgets/issues/450) [#417](https://github.com/Direwolf20-MC/BuildingGadgets/issues/417) [#513](https://github.com/Direwolf20-MC/BuildingGadgets/issues/513)
+			* Fixed Alpha rendering on the Builders and Exchangers overlays
+			* Fixed Effect Block not registering it's render properly... [#472](https://github.com/Direwolf20-MC/BuildingGadgets/issues/472)
+			* Fixed Copy Paste Gadgets rotation failing to rotate blocks correctly. [#492](https://github.com/Direwolf20-MC/BuildingGadgets/pull/492/)
+			* Fixed a translation issue with Binding and unbinding your Gadget to an inventory.
+			* Fixed translation gaps in the translation files. [#458](https://github.com/Direwolf20-MC/BuildingGadgets/issues/458/)
+			* Fixed modes being all caps (part of #458)
+			* Fixed crashing when an inventory cap is delayed or missing due to other mods. [#461](https://github.com/Direwolf20-MC/BuildingGadgets/issues/458/) [#465](https://github.com/Direwolf20-MC/BuildingGadgets/issues/465/) (actually fixed a bit ago but forgot to mention it in the changelog)
+			Changed
+			* Added back the Bound Inventory highlight / overlay...
+			* Added back tile entity render to the Exchanger and Builder overlays...
+			* Migrated all registries over to DeferredRegister
+			* Remove translation keys from the config (not required and half implemented)
+
+	Clumps (Clumps-5.0.2.4.jar --> Clumps-5.0.2.5.jar):
+		Clumps-5.0.2.5.jar:
+			Current version: 5.0.2.5
+			* [orb improvements](https://github.com/jaredlll08/Clumps/commit/b8080270508714ef45095272e150959d9cb36754) - Jared - Thu Aug 20 20:29:03 2020
+			* [version push](https://github.com/jaredlll08/Clumps/commit/d671c2499c750102f8c21405989709df0fa13fc2) - Jared - Sun Jul 19 21:04:27 2020
+			* [re-fix clumps causing crashes close #35](https://github.com/jaredlll08/Clumps/commit/90ae55545e2bc82365ca80e89af63f0017bc520f) - Jared - Sun Jul 19 21:04:16 2020
+			* [use the right version](https://github.com/jaredlll08/Clumps/commit/2aa54180fa3a1ddfee94022cfb27ee4b8255c6fc) - Jared - Sat Jul 18 01:40:02 2020
+			* [update commit](https://github.com/jaredlll08/Clumps/commit/51ca78c8d54dccad82a167d45673181363218e84) - Jared - Fri Jul 17 23:36:10 2020
+
+	Collective (Archived file --> collective-1.15.2-1.39.jar):
+		collective-1.15.2-1.39.jar:
+			Fixed Find A Block function removing passengers by removing old code accidently left in.
+			Fixed skeleton- and zombie horses burning when under a tree.
+			=========
+			The complete changelog with previous versions can be found at [https://minecraft.natamus.com/collective/changelog/]().
+
+	Jellyfishing (Jellyfishing-1.2.4.jar --> Jellyfishing-1.2.5.jar):
+		Jellyfishing-1.2.5.jar:
+			Fixes another server crash
+
+	Just Enough Items (JEI) (jei-1.15.2-6.0.2.12.jar --> jei-1.15.2-6.0.2.14.jar):
+		Placeholder:
+			No changelog available.
+
+	No Hostiles Around Campfire (Archived file --> nhacampfire_1.15.2-2.4.jar):
+		nhacampfire_1.15.2-2.4.jar:
+			Improved distance calculations for entities around the campfire. Both to prevent spawn and when they should burn on placement. Should work as intended now.
+			Moved code to check for passengers from the collective library mod to no hostiles around campfire.
+			=========
+			The complete changelog with previous versions can be found at [https://minecraft.natamus.com/no-hostiles-around-campfire/changelog/]().
+
+	Performant (performant-1.15-3.8m.jar --> performant-1.15-3.10m.jar):
+		performant-1.15-3.10m.jar:
+			v3.10: Fix occasional pathing crash
+
+		performant-1.15-3.9m.jar:
+			v3.9:
+			Fix entity ticking crash during pathing and other pathing issues
+			Improve chunk tick speed
+			Improve entity lookup speed
+
+	PneumaticCraft: Repressurized (pneumaticcraft-repressurized-1.15.2-1.4.3-60.jar --> pneumaticcraft-repressurized-1.15.2-1.4.4-64.jar):
+		pneumaticcraft-repressurized-1.15.2-1.4.4-64.jar:
+			1.4.4-64 (21 Aug 2020)
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#updates)Updates
+			* Pneumatic Armor HUD now displays only 1 decimal place of pressure for armor pieces
+			* - This is not just a cosmetic change, but part of an overall performance improvement with pressure sync'ing
+			* - Previously sync'ing pressures of pneumatic items (including armor) was much too chatty in terms of server->client traffic
+			* - Now only rounded air levels are sync'd to client, so the client generally knows item pressures with 0.1 bar of precision
+			* - This is enough for the vast majority of display purposes; e.g. item pressure tooltips already display with 0.1 bar of precision
+			* - Server->client traffic is now greatly reduced, especially for fast-changing pressures such as Jet Boots
+			* When placing a Drone down, if the block clicked has no collision box (e.g. flower, crop, etc.) then place the Drone on the that block instead of the adjacent block
+			* Drones (with the Pick up Items widget) will no longer "steal" items off Immersive Engineering conveyor belts
+			* - Specifically, the widget now honours the "PreventRemoteMovement" entity tag
+			* - This can be overridden via the widget's GUI when creating the drone program
+			* Tweaked heat & air output of advanced compressors somewhat
+			* - All compressors now produce heat proportional to the air produced (adding 1 heat per 20 air/tick produced)
+			* - This affects the Flux Compressor in particular, which was producing much less heat per air than the Advanced Compressor & Advanced Liquid Compressor
+			* - Flux Compressor now produces double the heat it used to, so yes: this can be considered a nerf!
+			* - Heat generation will drop a bit as efficiency drops (since less air is being produced)
+			* - Fixed issue where fractional amounts of air/tick were getting rounded down (so compressors may produce very slightly more now, depending on circumstances)
+			* Reinforced Stone blocks are now a little easier to mine up (blast resistance has not been changed though)
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#fixes)Fixes
+			* Fixed Logistics Frames not being placeable on the Aerial Interface
+			* Fixed client desync when placing items (e.g. torches) on a Pressure Chamber block from the offhand
+			* Fixed (hopefully) an issue where client-side Logistics Frames would disappear on certain blocks
+			* - This also caused a client-side crash if right-clicking a "missing" frame with the Logistics Configurator
+			* Fixed Minigun item being rendered too far right in GUI context
+			* Fixed occasional client-side crash with Block Tracker helmet upgrade enabled
+
+	Productive Bees (productivebees-1.15.2-0.2.4.jar --> productivebees-1.15.2-0.2.5.1.jar):
+		productivebees-1.15.2-0.2.5.1.jar:
+			* Fixes a problem on some worlds where all bees output the same comb
+
+		productivebees-1.15.2-0.2.5.jar:
+			* Comb production has been limited to 1 per pollination. The comb will be deposited when the bees leaves the hive, just like honey. The amount of combs is still affected by the bees productivity level.
+			* Added bee conversion from items recipe to JEI
+			* New bee display in the hive and JEI
+			* Updated bee colors
+			* Updated comb colors
+			* Updated bee egg colors for better consistency
+
+	The One Probe (theoneprobe-1.15-2.0.5.jar --> TheOneProbe - 1.15-2.0.6):
+		TheOneProbe - 1.15-2.0.6:
+			TheOneProbe 1.15-2.0.6
+
+Removed:
+- CompactStorage
+- Configurable Cane
+- Dude! Where's my Horse?
+- Forgiving Void
+- Gauges and Switches
+- Hardcore Revival
+- Iron Jetpacks
+- Lithium (Forge)
+- NetherPortalFix
+- Ranged Pumps
+- Refined Relocation 2
+- Steve's Factory Manager Reborn
+- Uppers
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
